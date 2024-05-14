@@ -1,5 +1,11 @@
 # @graphiql/react
 
+## 0.22.2
+
+### Patch Changes
+
+- [#3602](https://github.com/graphql/graphiql/pull/3602) [`03ab3a6b`](https://github.com/graphql/graphiql/commit/03ab3a6b76378591ef79a828d80cc69b0b8f2842) Thanks [@thomasheyenbrock](https://github.com/thomasheyenbrock)! - Avoid using deprecated Component.defaultProps for icon titles
+
 ## 0.22.1
 
 ### Patch Changes
