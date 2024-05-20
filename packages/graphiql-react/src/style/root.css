@@ -146,3 +146,15 @@ body.graphiql-dark [data-radix-popper-content-wrapper] {
     }
   }
 }
+
+/* Transparent scrollbars, without backgrounds */
+.graphiql-container .CodeMirror-hscrollbar,
+.graphiql-container .CodeMirror-vscrollbar {
+  scrollbar-color: #88888888 transparent;
+}
+
+/* The little square between H and V scrollbars */
+.graphiql-container .CodeMirror-scrollbar-filler,
+.graphiql-container .CodeMirror-gutter-filler {
+  background-color: inherit;
+}
